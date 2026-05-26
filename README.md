@@ -99,6 +99,7 @@ bash
 Copy
 streamlit run app.py --server.port 8501
 Open http://localhost:8501 in your browser.
+
 💡 Usage Guide
 Tab 1: 📄 Overview
 View document statistics (character count, word count)
@@ -126,6 +127,7 @@ Temporal vagueness
 Passive deflection
 Accounting euphemisms
 Guidance softening
+
 📊 Financial Data
 Hardcoded financials (2022-2024) for ratio calculations:
 Table
@@ -136,6 +138,7 @@ GOOGL	$350B	28.3%	23.6%
 META	$165B	35.9%	37.9%
 NVDA	$131B	57.1%	55.8%
 Source: Yahoo Finance / SEC 10-K filings
+
 🚩 Red Flag Detection
 The system scans MD&A text for concerning linguistic patterns:
 Table
@@ -145,28 +148,29 @@ Temporal Vagueness	"in the foreseeable future"	2/5
 Passive Deflection	"was impacted by external conditions"	2/5
 Accounting Euphemism	"non-recurring restructuring charge"	3/5
 Guidance Softening	"withdrawing forward guidance"	3/5
+
 🎓 Academic Context
 Project Type: Internship Major Project
-Institution: [Your University Name]
-Duration: 6-Day Sprint
-Deadline: May 31, 2026
 Learning Outcomes:
 RAG pipeline construction with vector databases
 LLM integration for domain-specific Q&A
 Financial statement analysis and ratio computation
 Pattern recognition in unstructured text
 Interactive data visualization
+
 🔒 Privacy & Compliance
 All data used is publicly available from the U.S. Securities and Exchange Commission (SEC). No private company data is accessed. This project complies with:
 SEC EDGAR fair access policies
 Groq API terms of service
 Open-source license requirements (MIT/Apache 2.0 dependencies)
+
 ⚠️ Known Limitations
 Storage Constraints: NVIDIA (NVDA) excluded from some deployments due to Replit 1GB storage limit
 Single-Year Text: Current implementation uses 2024 MD&A only; multi-year RAG requires additional ingestion
 Hardcoded Financials: Ratio data manually extracted; production would use automated XBRL parsing
 English Only: Pattern detection optimized for English SEC filings
 Mitigation: Architecture supports N companies and multi-year ingestion via configuration changes.
+
 🔮 Future Enhancements
 [ ] Real-time 10-Q quarterly ingestion via SEC RSS feeds
 [ ] Automated XBRL financial data extraction
@@ -175,12 +179,14 @@ Mitigation: Architecture supports N companies and multi-year ingestion via confi
 [ ] PDF table extraction with Camelot/Tabula
 [ ] User authentication and portfolio tracking
 [ ] Alert system for new red flags in filings
+
 🙏 Acknowledgments
 SEC EDGAR for public access to corporate filings
 Groq for free-tier LLM inference
 ChromaDB for open-source vector storage
 Streamlit for rapid UI prototyping
 Sentence Transformers for local embeddings
+
 📜 License
 This project is for educational purposes only. Not intended for production investment decisions. Financial data approximations used for demonstration.
 Built with ❤️ for equity research and fundamental analysis.
