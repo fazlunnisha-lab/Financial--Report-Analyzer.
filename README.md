@@ -3,7 +3,8 @@ AI-powered financial document intelligence system. Ingests SEC 10-K filings, bui
 Project Overview
 FinSight is a Retrieval-Augmented Generation (RAG) based system designed for equity research analysts, portfolio managers, retail investors, and business journalists. It ingests company annual reports (SEC 10-K filings), processes Management Discussion & Analysis (MD&A) sections, and enables intelligent natural language querying with source citations.
 
-
+# Dashboard
+![image alt](https://github.com/fazlunnisha-lab/Finsight.-FInancial-Insight-analyser-/blob/ce359b304e2591d58f0b62ada15b667bd2bc0311/Screenshot%202026-05-30%20222455.png)
 
 
 Key Capabilities:
